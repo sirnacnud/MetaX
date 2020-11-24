@@ -10,8 +10,6 @@ target 'MetaX' do
   pod 'PromiseKit', '~> 6.0'
   pod 'SVProgressHUD', '2.2.5'
   pod 'R.swift'
-  pod 'Fabric'
-  pod 'Crashlytics'
 
   target 'MetaXTests' do
     inherit! :search_paths

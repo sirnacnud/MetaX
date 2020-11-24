@@ -1,7 +1,4 @@
 PODS:
-  - Crashlytics (3.10.1):
-    - Fabric (~> 1.7.5)
-  - Fabric (1.7.6)
   - LoadableNib (1.0.1)
   - PromiseKit (6.2.5):
     - PromiseKit/CorePromise (= 6.2.5)
@@ -19,8 +16,6 @@ PODS:
   - SVProgressHUD (2.2.5)
 
 DEPENDENCIES:
-  - Crashlytics
-  - Fabric
   - LoadableNib (~> 1.0.1)
   - PromiseKit (~> 6.0)
   - R.swift
@@ -28,9 +23,7 @@ DEPENDENCIES:
   - SVProgressHUD (= 2.2.5)
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
-    - Crashlytics
-    - Fabric
+  https://github.com/cocoapods/specs.git:
     - LoadableNib
     - PromiseKit
     - R.swift
@@ -39,8 +32,6 @@ SPEC REPOS:
     - SVProgressHUD
 
 SPEC CHECKSUMS:
-  Crashlytics: aee1a064cbbf99b32efa3f056a5f458d846bc8ff
-  Fabric: f8d42c893bb187326a7968b62abe55c36a987a46
   LoadableNib: 6e76e8f8287e1de8d3e6505d63ee8424746f0a00
   PromiseKit: a26828b0a8d5874960dfdb575b57a70790ec36f1
   R.swift: d6a5ec2f55a8441dc0ed9f1f8b37d7d11ae85c66
@@ -48,6 +39,6 @@ SPEC CHECKSUMS:
   SkeletonView: 041053e904504e7d8db83df166e599be75659fe1
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
-PODFILE CHECKSUM: 3399485637aab25f701715b5e08579e35802baab
+PODFILE CHECKSUM: bf59ce56fb83a934a15b0e42b5385d6c8ab07193
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.7.5

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -76,7 +76,6 @@
 		11F0546520A9DF7900596A02 /* PHAssetCollectionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E84E22208CD634003A8F88 /* PHAssetCollectionExtension.swift */; };
 		11F0546620A9DF7900596A02 /* DetailSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E84E2E208CD634003A8F88 /* DetailSectionHeaderView.swift */; };
 		11F0546720A9DF7900596A02 /* Rational.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E84E36208CD635003A8F88 /* Rational.swift */; };
-		11F0546920A9DF7900596A02 /* Pods_MetaX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BD227D19ED4033878F2E75 /* Pods_MetaX.framework */; };
 		11F0546B20A9DF7900596A02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11E84E7B208CDC1C003A8F88 /* Main.storyboard */; };
 		11F0546C20A9DF7900596A02 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11E84E76208CDBE9003A8F88 /* InfoPlist.strings */; };
 		11F0546D20A9DF7900596A02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11E84E17208CD634003A8F88 /* LaunchScreen.storyboard */; };
@@ -85,6 +84,7 @@
 		11F0547020A9DF7900596A02 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11E84E82208CDC62003A8F88 /* Localizable.strings */; };
 		11F0547120A9DF7900596A02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11E84E3E208CD635003A8F88 /* Assets.xcassets */; };
 		11F0547220A9DF7900596A02 /* AuthLockView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11E84E2B208CD634003A8F88 /* AuthLockView.xib */; };
+		1A80A966F971CE27D0CE9580 /* Pods_MetaX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BD227D19ED4033878F2E75 /* Pods_MetaX.framework */; };
 		448E7274208D984900D6F683 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448E7273208D984900D6F683 /* R.generated.swift */; };
 		ABC42DC6DA55972A3936A0A3 /* Pods_MetaXTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A6F497AC5AA503EB4EBD315 /* Pods_MetaXTests.framework */; };
 /* End PBXBuildFile section */
@@ -158,11 +158,11 @@
 		18BD227D19ED4033878F2E75 /* Pods_MetaX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MetaX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		448E7273208D984900D6F683 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
 		448E7275208DA33D00D6F683 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		60754631BAB4E2586770D176 /* Pods-MetaX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetaX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MetaX/Pods-MetaX.debug.xcconfig"; sourceTree = "<group>"; };
 		9075A68EC3FB38E95ADA8887 /* Pods-MetaXTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetaXTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MetaXTests/Pods-MetaXTests.release.xcconfig"; sourceTree = "<group>"; };
+		924AA6C10C56383F169E51C3 /* Pods-MetaX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetaX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MetaX/Pods-MetaX.debug.xcconfig"; sourceTree = "<group>"; };
 		9A6F497AC5AA503EB4EBD315 /* Pods_MetaXTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MetaXTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C57CF7F78291910A57E8A1E5 /* Pods-MetaX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetaX.release.xcconfig"; path = "Pods/Target Support Files/Pods-MetaX/Pods-MetaX.release.xcconfig"; sourceTree = "<group>"; };
 		DAE5F200BAB699619FD6A753 /* Pods-MetaXTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetaXTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MetaXTests/Pods-MetaXTests.debug.xcconfig"; sourceTree = "<group>"; };
-		FE8C75FBD779210A9BAB407F /* Pods-MetaX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetaX.release.xcconfig"; path = "Pods/Target Support Files/Pods-MetaX/Pods-MetaX.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				11BEDE914D9D12650CAE66B5 /* Pods_MetaX.framework in Frameworks */,
+				1A80A966F971CE27D0CE9580 /* Pods_MetaX.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,7 +187,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11F0546920A9DF7900596A02 /* Pods_MetaX.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,10 +344,10 @@
 		FAD402B410AFB5027D56F042 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				60754631BAB4E2586770D176 /* Pods-MetaX.debug.xcconfig */,
-				FE8C75FBD779210A9BAB407F /* Pods-MetaX.release.xcconfig */,
 				DAE5F200BAB699619FD6A753 /* Pods-MetaXTests.debug.xcconfig */,
 				9075A68EC3FB38E95ADA8887 /* Pods-MetaXTests.release.xcconfig */,
+				924AA6C10C56383F169E51C3 /* Pods-MetaX.debug.xcconfig */,
+				C57CF7F78291910A57E8A1E5 /* Pods-MetaX.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -365,7 +365,6 @@
 				11E84DEE208CD56A003A8F88 /* Frameworks */,
 				11E84DEF208CD56A003A8F88 /* Resources */,
 				986D2FFC0635FEF057145962 /* [CP] Embed Pods Frameworks */,
-				11DF7F982098AAB40084EB4F /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -399,12 +398,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 11F0547520A9DF7900596A02 /* Build configuration list for PBXNativeTarget "MetaXDev" */;
 			buildPhases = (
-				11F0544720A9DF7900596A02 /* [CP] Check Pods Manifest.lock */,
 				11F0544820A9DF7900596A02 /* ShellScript */,
 				11F0544920A9DF7900596A02 /* Sources */,
 				11F0546820A9DF7900596A02 /* Frameworks */,
 				11F0546A20A9DF7900596A02 /* Resources */,
-				11F0547320A9DF7900596A02 /* [CP] Embed Pods Frameworks */,
 				11F0547420A9DF7900596A02 /* ShellScript */,
 			);
 			buildRules = (
@@ -499,19 +496,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		11DF7F982098AAB40084EB4F /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "apiKey=$(sed -n '1p' < fabrickey.txt)\nsecretKey=$(sed -n '2p' < fabrickey.txt)\n\n\"${PODS_ROOT}/Fabric/run\" $apiKey $secretKey";
-		};
 		11E84E6D208CD7FF003A8F88 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -525,24 +509,6 @@
 			shellPath = /bin/sh;
 			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT\"";
 		};
-		11F0544720A9DF7900596A02 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MetaX-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		11F0544820A9DF7900596A02 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -555,32 +521,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT\"";
-		};
-		11F0547320A9DF7900596A02 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-MetaX/Pods-MetaX-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/LoadableNib/LoadableNib.framework",
-				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
-				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
-				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
-				"${BUILT_PRODUCTS_DIR}/SkeletonView/SkeletonView.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LoadableNib.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkeletonView.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MetaX/Pods-MetaX-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
 		11F0547420A9DF7900596A02 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -618,25 +558,16 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-MetaX/Pods-MetaX-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/LoadableNib/LoadableNib.framework",
-				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
-				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
-				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
-				"${BUILT_PRODUCTS_DIR}/SkeletonView/SkeletonView.framework",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MetaX/Pods-MetaX-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LoadableNib.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkeletonView.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MetaX/Pods-MetaX-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MetaX/Pods-MetaX-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MetaX/Pods-MetaX-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EA1D7B63BB5638DB5DB39555 /* [CP] Check Pods Manifest.lock */ = {
@@ -904,14 +835,14 @@
 		};
 		11E84E0F208CD56C003A8F88 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 60754631BAB4E2586770D176 /* Pods-MetaX.debug.xcconfig */;
+			baseConfigurationReference = 924AA6C10C56383F169E51C3 /* Pods-MetaX.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 285BYEPY9U;
+				DEVELOPMENT_TEAM = F72TZLE7Z6;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -935,13 +866,13 @@
 		};
 		11E84E10208CD56C003A8F88 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FE8C75FBD779210A9BAB407F /* Pods-MetaX.release.xcconfig */;
+			baseConfigurationReference = C57CF7F78291910A57E8A1E5 /* Pods-MetaX.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 285BYEPY9U;
+				DEVELOPMENT_TEAM = F72TZLE7Z6;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -969,7 +900,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 285BYEPY9U;
+				DEVELOPMENT_TEAM = F72TZLE7Z6;
 				INFOPLIST_FILE = MetaXTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -991,7 +922,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 285BYEPY9U;
+				DEVELOPMENT_TEAM = F72TZLE7Z6;
 				INFOPLIST_FILE = MetaXTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1008,14 +939,13 @@
 		};
 		11F0547620A9DF7900596A02 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 60754631BAB4E2586770D176 /* Pods-MetaX.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 285BYEPY9U;
+				DEVELOPMENT_TEAM = F72TZLE7Z6;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -1039,13 +969,12 @@
 		};
 		11F0547720A9DF7900596A02 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FE8C75FBD779210A9BAB407F /* Pods-MetaX.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 285BYEPY9U;
+				DEVELOPMENT_TEAM = F72TZLE7Z6;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
